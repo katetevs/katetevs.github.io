@@ -72,7 +72,6 @@ img {
 /* Homepage hero */
 
 .hero {
-    min-height: 620px;
     padding: 0 24px;
     background:
         linear-gradient(
