@@ -326,3 +326,101 @@ footer {
         flex-direction: column;
     }
 }
+
+.project-header {
+    padding: 0 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+}
+
+.project-page {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 80px 24px 110px;
+}
+
+.project-introduction {
+    margin-bottom: 80px;
+}
+
+.project-introduction h1 {
+    max-width: 850px;
+    margin: 0;
+    font-size: clamp(2.6rem, 6vw, 4.8rem);
+}
+
+.project-summary {
+    max-width: 760px;
+    margin-top: 25px;
+    color: var(--muted);
+    font-size: 1.2rem;
+}
+
+.project-section {
+    margin-bottom: 80px;
+}
+
+.project-section h2 {
+    margin-bottom: 18px;
+    font-size: clamp(1.7rem, 4vw, 2.5rem);
+}
+
+.project-section > p {
+    max-width: 780px;
+    margin-bottom: 28px;
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+
+.workflow-list,
+.findings-list {
+    margin-left: 24px;
+    color: var(--muted);
+}
+
+.workflow-list li,
+.findings-list li {
+    margin-bottom: 12px;
+    padding-left: 6px;
+}
+
+.project-screenshot {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.screenshot-link {
+    display: block;
+}
+
+.screenshot-link:hover .project-screenshot {
+    transform: translateY(-2px);
+}
+
+.project-screenshot {
+    transition: transform 0.2s ease;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project-tags span {
+    padding: 8px 13px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--surface);
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.project-navigation {
+    padding-top: 20px;
+}
